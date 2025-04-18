@@ -2,11 +2,11 @@
 ' ( HYBRID SCRIPT ENGINE 2009 GENERATED HEADER ) 
 '
 '#new_assembly System.Core.dll
-'#assembly C:\Users\Redme\Desktop\CoServerV2\ConquerServer_v2\bin\Debug\ConquerScriptLinker.dll
+'#assembly C:\Users\Redme\OneDrive\Documents\ConquerServer\ConquerServerV2\CoServerV2\ConquerServer_v2\bin\Debug\ConquerScriptLinker.dll
 Imports System
 Imports ConquerScriptLinker
 Partial Public Class Engine
-Public Shared DatabasePath As String = "C:\Users\Redme\Desktop\CoServerV2\Database"
+Public Shared DatabasePath As String = "C:\Users\Redme\OneDrive\Documents\ConquerServer\ConquerServerV2\CoServerV2\Database"
 Public Shared Player As INpcPlayer
 Public Shared NativeDialog As Func(Of INpcPlayer, String(), Int32)
 Public Shared NativeCommand As Func(Of INpcPlayer, String, Int32)
