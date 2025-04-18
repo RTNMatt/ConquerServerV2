@@ -1,0 +1,7 @@
+[Global Exception]
+System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at ConquerServer_v2.NetworkServerSocket.Prepare(Int32 port, Int32 backlog) in E:\CoServer_V3\ConquerServer_v2\NetworkServerSocket.cs:line 136
+   at ConquerServer_v2.Program.Main(String[] args) in E:\CoServer_V3\ConquerServer_v2\Program.cs:line 53
+

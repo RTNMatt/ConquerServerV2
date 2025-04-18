@@ -1,0 +1,11 @@
+[Global Exception]
+System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at ConquerServer_v2.NetworkServerSocket.Prepare(Int32 port, Int32 backlog) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\NetworkServerSocket.cs:line 136
+   at ConquerServer_v2.Program.Main(String[] args) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Program.cs:line 47
+
+[Monster AI Exception]
+System.DivideByZeroException: Attempted to divide by zero.
+   at ConquerServer_v2.Monster_AI.MonsterSpawn.ArtificialIntelligence(Object Argument) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MonsterSpawn.cs:line 186
+

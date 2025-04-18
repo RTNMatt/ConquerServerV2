@@ -1,0 +1,32 @@
+[Database - Load Character]
+System.Exception
+   at ConquerServer_v2.Database.ServerDatabase.LoadPlayer(GameClient Client, Int32 PasswordCheckSum, Boolean& NewCharacter) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Database\ServerDatabase.cs:line 876
+
+[Database - Load Character]
+System.Exception
+   at ConquerServer_v2.Database.ServerDatabase.LoadPlayer(GameClient Client, Int32 PasswordCheckSum, Boolean& NewCharacter) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Database\ServerDatabase.cs:line 876
+
+[Packet Processor - 03F1, 04]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Packet_Structures.HeroItemsPacket.Create(GameClient Client) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Packet Structures\Hero Items 0x2E.cs:line 60
+   at ConquerServer_v2.Client.ClientEquipment.Equip(Item Item, ItemPosition Slot) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Client\Equipment.cs:line 45
+   at ConquerServer_v2.Client.GameClient.Equip(Item Item, ItemPosition Position, ItemUsuagePacket* Packet) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Client\Game Client.cs:line 474
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.EquipItem(GameClient Client, ItemUsuagePacket* lpPacket) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Packet Processor\Item Usuage 0x3F1\Equip Item 0x3F1, 0x04.cs:line 154
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Packet Processor\Process.cs:line 35
+
+[Packet Processor - 03F1, 04]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Packet_Structures.HeroItemsPacket.Create(GameClient Client) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Packet Structures\Hero Items 0x2E.cs:line 60
+   at ConquerServer_v2.Client.ClientEquipment.Equip(Item Item, ItemPosition Slot) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Client\Equipment.cs:line 45
+   at ConquerServer_v2.Client.GameClient.Equip(Item Item, ItemPosition Position, ItemUsuagePacket* Packet) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Client\Game Client.cs:line 474
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.EquipItem(GameClient Client, ItemUsuagePacket* lpPacket) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Packet Processor\Item Usuage 0x3F1\Equip Item 0x3F1, 0x04.cs:line 154
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Packet Processor\Process.cs:line 35
+
+[Packet Processor - 03F1, 04]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Packet_Structures.HeroItemsPacket.Create(GameClient Client) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Packet Structures\Hero Items 0x2E.cs:line 60
+   at ConquerServer_v2.Client.ClientEquipment.Equip(Item Item, ItemPosition Slot) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Client\Equipment.cs:line 45
+   at ConquerServer_v2.Client.GameClient.Equip(Item Item, ItemPosition Position, ItemUsuagePacket* Packet) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Client\Game Client.cs:line 474
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.EquipItem(GameClient Client, ItemUsuagePacket* lpPacket) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Packet Processor\Item Usuage 0x3F1\Equip Item 0x3F1, 0x04.cs:line 154
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Packet Processor\Process.cs:line 35
+

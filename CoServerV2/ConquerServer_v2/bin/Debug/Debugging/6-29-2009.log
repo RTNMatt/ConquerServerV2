@@ -1,0 +1,10 @@
+[Npc Processor Error - 435, 2, ]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.ConquerScriptEngine.TournamentScoreNpc(GameClient Client, Byte OptionID, String Input) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 448
+   at ConquerServer_v2.ConquerScriptEngine.ProcessNpc(GameClient Client, Byte OptionID, String Input) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 204
+
+[Npc Processor Error - 435, 2, ]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.ConquerScriptEngine.TournamentScoreNpc(GameClient Client, Byte OptionID, String Input) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 448
+   at ConquerServer_v2.ConquerScriptEngine.ProcessNpc(GameClient Client, Byte OptionID, String Input) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 204
+

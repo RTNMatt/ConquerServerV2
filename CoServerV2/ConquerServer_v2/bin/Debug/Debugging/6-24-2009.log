@@ -1,0 +1,25 @@
+[Packet Processor - 03F1, 04]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ItemEngine.Execute()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at ScriptingEngine.CompiledScript.RunStaticFunction(Type CompiledType, String Method) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\CompiledScript.cs:line 70
+   at ConquerServer_v2.ConquerScriptEngine.ProcessItem(GameClient Client, IItem Item) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 214
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.EquipItem(GameClient Client, ItemUsuagePacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Item Usuage 0x3F1\Equip Item 0x3F1, 0x04.cs:line 40
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 33
+
+[Global Exception]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.GuildWar.SOBMonster.set_Name(String value) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\GuildWar\SOBMonster.cs:line 71
+   at ConquerServer_v2.GuildWar.GuildWarKernel.Init() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\GuildWar\GuildWar Kernel.cs:line 199
+   at ConquerServer_v2.Program.Main(String[] args) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Program.cs:line 42
+   at System.AppDomain._nExecuteAssembly(Assembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+

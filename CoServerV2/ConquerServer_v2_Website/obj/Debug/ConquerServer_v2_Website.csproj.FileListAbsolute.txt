@@ -1,0 +1,22 @@
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2_Website\bin\Debug\ConquerServer_v2_Website.exe
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2_Website\bin\Debug\ConquerServer_v2_Website.pdb
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2_Website\bin\Debug\ScriptingEngine.dll
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2_Website\bin\Debug\ScriptingEngine.pdb
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2_Website\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2_Website\obj\Debug\ConquerServer_v2_Website.exe
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2_Website\obj\Debug\ConquerServer_v2_Website.pdb
+C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2_Website\obj\Debug\ConquerServer_v2_Website.exe
+C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2_Website\obj\Debug\ConquerServer_v2_Website.pdb
+C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2_Website\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Redme\Desktop\CoServerV3\ConquerServer_v2_Website\obj\Debug\ConquerServer_v2_Website.csproj.AssemblyReference.cache
+C:\Users\Redme\Desktop\CoServerV3\ConquerServer_v2_Website\obj\Debug\ConquerServer_v2_Website.csproj.CoreCompileInputs.cache
+C:\Users\Redme\Desktop\CoServerV3\ConquerServer_v2_Website\obj\Debug\ConquerServer_v2_Website.exe
+C:\Users\Redme\Desktop\CoServerV2\ConquerServer_v2_Website\obj\Debug\ConquerServer_v2_Website.csproj.AssemblyReference.cache
+C:\Users\Redme\Desktop\CoServerV2\ConquerServer_v2_Website\obj\Debug\ConquerServer_v2_Website.csproj.CoreCompileInputs.cache
+C:\Users\Redme\Desktop\CoServerV2\ConquerServer_v2_Website\obj\Debug\ConquerServer_v2_Website.exe
+C:\Users\Redme\Desktop\CoServerV2\ConquerServer_v2_Website\bin\Debug\ConquerServer_v2_Website.exe
+C:\Users\Redme\Desktop\CoServerV2\ConquerServer_v2_Website\bin\Debug\ConquerServer_v2_Website.pdb
+C:\Users\Redme\Desktop\CoServerV2\ConquerServer_v2_Website\bin\Debug\ScriptingEngine.dll
+C:\Users\Redme\Desktop\CoServerV2\ConquerServer_v2_Website\bin\Debug\ScriptingEngine.pdb
+C:\Users\Redme\Desktop\CoServerV2\ConquerServer_v2_Website\obj\Debug\ConquerS.35078E3B.Up2Date
+C:\Users\Redme\Desktop\CoServerV2\ConquerServer_v2_Website\obj\Debug\ConquerServer_v2_Website.pdb

@@ -1,0 +1,7 @@
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\bin\Release\ScriptingEngine.dll
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\bin\Release\ScriptingEngine.pdb
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\obj\Release\ScriptingEngine.dll
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\obj\Release\ScriptingEngine.pdb
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\bin\Debug\ScriptingEngine.dll
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\bin\Debug\ScriptingEngine.pdb

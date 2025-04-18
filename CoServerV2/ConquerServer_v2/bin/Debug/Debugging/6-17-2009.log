@@ -1,0 +1,308 @@
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 170
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 114
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 141
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 118
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 141
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 118
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 141
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 118
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 141
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 118
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 141
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 118
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 141
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 118
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 141
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 118
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 141
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 118
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 141
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 118
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 141
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 118
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 141
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 118
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 141
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 118
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 141
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 118
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 141
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 118
+
+[Packet Processor - 271A, 66]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Monster_AI.MobCollection.Search(UInt32 MonsterUID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MobCollection.cs:line 56
+   at ConquerServer_v2.Core.Kernel.FindEntity(UInt32 EntityUID, MapID MapID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 141
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.RequestEntity(GameClient Client, DataPacket* lpPacket) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs:line 13
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 118
+

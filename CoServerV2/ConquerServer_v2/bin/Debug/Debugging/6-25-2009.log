@@ -1,0 +1,96 @@
+[Npc Processor Error - 600075, 0, ]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.ConquerScriptEngine.Dialog(INpcPlayer Player, String[] Dlg) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 230
+   at Engine.Dialog(String[] Dlg)
+   at NpcEngine.Execute()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at ScriptingEngine.CompiledScript.RunStaticFunction(Type CompiledType, String Method) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\CompiledScript.cs:line 70
+   at ConquerServer_v2.ConquerScriptEngine.ProcessNpc(GameClient Client, Byte OptionID, String Input) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 184
+
+[Npc Processor Error - 104797, 0, ]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.ConquerScriptEngine.Dialog(INpcPlayer Player, String[] Dlg) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 230
+   at Engine.Dialog(String[] Dlg)
+   at NpcEngine.Execute()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at ScriptingEngine.CompiledScript.RunStaticFunction(Type CompiledType, String Method) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\CompiledScript.cs:line 70
+   at ConquerServer_v2.ConquerScriptEngine.ProcessNpc(GameClient Client, Byte OptionID, String Input) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 184
+
+[Npc Processor Error - 104797, 0, ]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.ConquerScriptEngine.Dialog(INpcPlayer Player, String[] Dlg) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 230
+   at Engine.Dialog(String[] Dlg)
+   at NpcEngine.Execute()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at ScriptingEngine.CompiledScript.RunStaticFunction(Type CompiledType, String Method) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\CompiledScript.cs:line 70
+   at ConquerServer_v2.ConquerScriptEngine.ProcessNpc(GameClient Client, Byte OptionID, String Input) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 184
+
+[Npc Processor Error - 108883, 0, ]
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, AccessControlActions control, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at ScriptingEngine.ScriptEngine.GetIncludeFiles(String StartFile, List`1& Files) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 165
+   at ScriptingEngine.ScriptEngine.GetIncludeFiles(String StartFile, List`1& Files) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 182
+   at ScriptingEngine.ScriptEngine.CompileScript(String FileName) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 233
+   at ConquerServer_v2.ConquerScriptEngine.ProcessNpc(GameClient Client, Byte OptionID, String Input) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 179
+
+[Npc Processor Error - 108883, 0, ]
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, AccessControlActions control, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at ScriptingEngine.ScriptEngine.GetIncludeFiles(String StartFile, List`1& Files) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 165
+   at ScriptingEngine.ScriptEngine.GetIncludeFiles(String StartFile, List`1& Files) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 182
+   at ScriptingEngine.ScriptEngine.CompileScript(String FileName) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 233
+   at ConquerServer_v2.ConquerScriptEngine.ProcessNpc(GameClient Client, Byte OptionID, String Input) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 179
+
+[Npc Processor Error - 108883, 0, ]
+System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, AccessControlActions control, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at ScriptingEngine.ScriptEngine.GetIncludeFiles(String StartFile, List`1& Files) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 165
+   at ScriptingEngine.ScriptEngine.GetIncludeFiles(String StartFile, List`1& Files) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 182
+   at ScriptingEngine.ScriptEngine.CompileScript(String FileName) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 233
+   at ConquerServer_v2.ConquerScriptEngine.ProcessNpc(GameClient Client, Byte OptionID, String Input) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 179
+
+[Npc Processor Error - 121171, 0, ]
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\users\sher\documents\visual studio 2008\conquer_v5090\conquerserver_v2\database\scripts\npc\guildgate.vb'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at ScriptingEngine.ScriptEngine.GetIncludeFiles(String StartFile, List`1& Files) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 165
+   at ScriptingEngine.ScriptEngine.GetIncludeFiles(String StartFile, List`1& Files) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 182
+   at ScriptingEngine.ScriptEngine.CompileScript(String FileName) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 233
+   at ConquerServer_v2.ConquerScriptEngine.ProcessNpc(GameClient Client, Byte OptionID, String Input)
+

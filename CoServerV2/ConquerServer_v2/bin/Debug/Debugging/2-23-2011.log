@@ -1,0 +1,108 @@
+[Global Exception]
+System.BadImageFormatException: Could not load file or assembly 'BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+File name: 'BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null'
+   at ConquerServer_v2.Client.BlowfishCrypter..ctor()
+   at ConquerServer_v2.Client.GameClient..ctor(NetworkClient Client) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Client\Game Client.cs:line 156
+   at ConquerServer_v2.Program.Game_Connect(NetworkClient nClient) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Game Processor.cs:line 18
+   at ConquerServer_v2.NetworkServerSocket.Accept(IAsyncResult res) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\NetworkServerSocket.cs:line 157
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.Socket.AcceptCallback(Object nullState)
+   at System.Threading._ThreadPoolWaitOrTimerCallback.PerformWaitOrTimerCallback(Object state, Boolean timedOut)
+
+=== Pre-bind state information ===
+LOG: User = Matt-PC\Matt
+LOG: DisplayName = BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/Matt/Desktop/CO Server 3/ConquerServer_v2/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : ConquerServer_v2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: No application configuration file found.
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework64\v2.0.50727\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///C:/Users/Matt/Desktop/CO Server 3/ConquerServer_v2/bin/Debug/BlowfishCFB.DLL.
+ERR: Failed to complete setup of assembly (hr = 0x8007000b). Probing terminated.
+
+
+[Global Exception]
+System.BadImageFormatException: Could not load file or assembly 'BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+File name: 'BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null'
+   at ConquerServer_v2.Client.BlowfishCrypter..ctor()
+   at ConquerServer_v2.Client.GameClient..ctor(NetworkClient Client) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Client\Game Client.cs:line 156
+   at ConquerServer_v2.Program.Game_Connect(NetworkClient nClient) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Game Processor.cs:line 18
+   at ConquerServer_v2.NetworkServerSocket.Accept(IAsyncResult res) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\NetworkServerSocket.cs:line 157
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.Socket.AcceptCallback(Object nullState)
+   at System.Threading._ThreadPoolWaitOrTimerCallback.PerformWaitOrTimerCallback(Object state, Boolean timedOut)
+
+=== Pre-bind state information ===
+LOG: User = Matt-PC\Matt
+LOG: DisplayName = BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/Matt/Desktop/CO Server 3/ConquerServer_v2/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : ConquerServer_v2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: No application configuration file found.
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework64\v2.0.50727\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///C:/Users/Matt/Desktop/CO Server 3/ConquerServer_v2/bin/Debug/BlowfishCFB.DLL.
+ERR: Failed to complete setup of assembly (hr = 0x8007000b). Probing terminated.
+
+
+[Global Exception]
+System.BadImageFormatException: Could not load file or assembly 'BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+File name: 'BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null'
+   at ConquerServer_v2.Client.BlowfishCrypter..ctor()
+   at ConquerServer_v2.Client.GameClient..ctor(NetworkClient Client) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Client\Game Client.cs:line 156
+   at ConquerServer_v2.Program.Game_Connect(NetworkClient nClient) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Game Processor.cs:line 18
+   at ConquerServer_v2.NetworkServerSocket.Accept(IAsyncResult res) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\NetworkServerSocket.cs:line 157
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.Socket.AcceptCallback(Object nullState)
+   at System.Threading._ThreadPoolWaitOrTimerCallback.PerformWaitOrTimerCallback(Object state, Boolean timedOut)
+
+=== Pre-bind state information ===
+LOG: User = Matt-PC\Matt
+LOG: DisplayName = BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/Matt/Desktop/CO Server 3/ConquerServer_v2/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : ConquerServer_v2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: No application configuration file found.
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework64\v2.0.50727\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///C:/Users/Matt/Desktop/CO Server 3/ConquerServer_v2/bin/Debug/BlowfishCFB.DLL.
+ERR: Failed to complete setup of assembly (hr = 0x8007000b). Probing terminated.
+
+
+[Global Exception]
+System.IO.FileLoadException: Could not load file or assembly 'BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The application has failed to start because its side-by-side configuration is incorrect. Please see the application event log or use the command-line sxstrace.exe tool for more detail. (Exception from HRESULT: 0x800736B1)
+File name: 'BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null' ---> System.Runtime.InteropServices.COMException (0x800736B1): The application has failed to start because its side-by-side configuration is incorrect. Please see the application event log or use the command-line sxstrace.exe tool for more detail. (Exception from HRESULT: 0x800736B1)
+   at ConquerServer_v2.Client.BlowfishCrypter..ctor()
+   at ConquerServer_v2.Client.GameClient..ctor(NetworkClient Client) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Client\Game Client.cs:line 156
+   at ConquerServer_v2.Program.Game_Connect(NetworkClient nClient) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\Game Processor.cs:line 18
+   at ConquerServer_v2.NetworkServerSocket.Accept(IAsyncResult res) in C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2\NetworkServerSocket.cs:line 157
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CompleteCallback(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.Socket.AcceptCallback(Object nullState)
+   at System.Net.Sockets.Socket.RegisteredWaitCallback(Object state, Boolean timedOut)
+   at System.Threading._ThreadPoolWaitOrTimerCallback.PerformWaitOrTimerCallback(Object state, Boolean timedOut)
+
+
+

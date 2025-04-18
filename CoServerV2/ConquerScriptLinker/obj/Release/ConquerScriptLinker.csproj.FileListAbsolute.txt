@@ -1,0 +1,5 @@
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerScriptLinker\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerScriptLinker\bin\Debug\ConquerScriptLinker.dll
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerScriptLinker\bin\Debug\ConquerScriptLinker.pdb
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerScriptLinker\obj\Release\ConquerScriptLinker.dll
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerScriptLinker\obj\Release\ConquerScriptLinker.pdb

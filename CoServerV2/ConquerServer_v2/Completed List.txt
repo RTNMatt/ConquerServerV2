@@ -1,0 +1,77 @@
+﻿New Auth Encryption, New Spell Encryption
+Logging in
+Items (Spawning, Stats, Gems Calculations etc)
+Attacking (Meele)
+Movement (Jumping, Walking)
+Npc Spawns
+Npc AI (Scripting Interface, VB.NET)
+Monster Spawns
+Monster AI
+Monster Item Generator (Monsters dropping items)
+Teams
+Players Dropping Items (and picking them up)
+Flashing/Guard system (you flash, guard pwnz you)	
+Reviver AI (future usuage)
+DMAP Checks (valid coordinates)
+Leveling (2.5x exp rate)
+Stamina
+Trading
+Archer-Attack
+Magic
+XP Magic
+Transformation
+[quote]
+- Fairly all 1v1 tao offensive spells
+- Fairly all 1v1 tao healing spells
+- Fairly all team-healing tao spells
+- Fairly all offensive passive skills (Rage, Phoenix, Celestial, etc.)
+- FastBlade/Scentsword
+- Meditation
+- Pray
+- Spirtual Healing
+- Super Man
+- XP Shield/
+- Scatter
+- Divine Hare, Water Elf, Golem (Robot), Night Devil
+[/quote]
+Gem Socketing (PC Artisan)
+Reviving/Revive Spots
+Actions
+Directions (changing/rotating)
+PK Modes
+Viewing Equipment
+Chatting (Talk, Whisper, Team, Guild)
+Guilds (No branches)
+Item Upgrading (Quality, Level (40%) in Twin City)
+[quote]
+	Normal -> Refined 80%
+	Refined -> Unique 50%
+	Unique -> Elite 20%
+	Elite -> Super 8%
+[/quote]
+Portals
+Commands (GM+/PM)
+Item Usuage (i.e. Potions, Potion Boxes, Hair Dyes)
+AutoAttacking (Meele, Magic, Archer, TG)
+GuildWar
+Website Registration
+Character Creation
+Friend List (and Enemey list 'skeleton')
+Tournament System
+Point System (Ranking Points)
+Guild War Protection (Hopping gates)
+Improved Monster AI (realitivity between children and AI-speed)
+Improved drop-rate calculations
+Implemented several items usuages, and npcs
+Warehouses
+Vending (For the most part)
+Ingame server-time (it's no longer 1970, yay!)
+Nobility System (both tournament and standard are implemented)
+Lottery System (may be removed by request)
+TQ based spell-system (i.e. TQ-fastblade/scentsword)
+TQ based stamina
+Blessing Gears
+HP-enchanting Gears
+Cool effects
+Artian Ou (Weapon Socketer, BI)
+Various Bug fixes (ET~ aug/03)

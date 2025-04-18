@@ -1,0 +1,119 @@
+[Global Exception]
+System.BadImageFormatException: Could not load file or assembly 'BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+File name: 'BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null'
+   at ConquerServer_v2.Client.BlowfishCrypter..ctor()
+   at ConquerServer_v2.Client.GameClient..ctor(NetworkClient Client) in C:\Server\ConquerServer_v2\Client\Game Client.cs:line 156
+   at ConquerServer_v2.Program.Game_Connect(NetworkClient nClient) in C:\Server\ConquerServer_v2\Game Processor.cs:line 18
+   at ConquerServer_v2.NetworkServerSocket.Accept(IAsyncResult res) in C:\Server\ConquerServer_v2\NetworkServerSocket.cs:line 157
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.Socket.AcceptCallback(Object nullState)
+   at System.Threading._ThreadPoolWaitOrTimerCallback.PerformWaitOrTimerCallback(Object state, Boolean timedOut)
+
+=== Pre-bind state information ===
+LOG: User = Taylor-PC\Taylor
+LOG: DisplayName = BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///C:/Server/ConquerServer_v2/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : ConquerServer_v2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: No application configuration file found.
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework64\v2.0.50727\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///C:/Server/ConquerServer_v2/bin/Debug/BlowfishCFB.DLL.
+ERR: Failed to complete setup of assembly (hr = 0x8007000b). Probing terminated.
+
+
+[Global Exception]
+System.BadImageFormatException: Could not load file or assembly 'BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+File name: 'BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null'
+   at ConquerServer_v2.Client.BlowfishCrypter..ctor()
+   at ConquerServer_v2.Client.GameClient..ctor(NetworkClient Client) in C:\Server\ConquerServer_v2\Client\Game Client.cs:line 156
+   at ConquerServer_v2.Program.Game_Connect(NetworkClient nClient) in C:\Server\ConquerServer_v2\Game Processor.cs:line 18
+   at ConquerServer_v2.NetworkServerSocket.Accept(IAsyncResult res) in C:\Server\ConquerServer_v2\NetworkServerSocket.cs:line 157
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.Socket.AcceptCallback(Object nullState)
+   at System.Threading._ThreadPoolWaitOrTimerCallback.PerformWaitOrTimerCallback(Object state, Boolean timedOut)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+
+[Global Exception]
+System.BadImageFormatException: Could not load file or assembly 'BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+File name: 'BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, PublicKeyToken=null'
+   at ConquerServer_v2.Client.BlowfishCrypter..ctor()
+   at ConquerServer_v2.Client.GameClient..ctor(NetworkClient Client) in C:\Server\ConquerServer_v2\Client\Game Client.cs:line 156
+   at ConquerServer_v2.Program.Game_Connect(NetworkClient nClient) in C:\Server\ConquerServer_v2\Game Processor.cs:line 18
+   at ConquerServer_v2.NetworkServerSocket.Accept(IAsyncResult res) in C:\Server\ConquerServer_v2\NetworkServerSocket.cs:line 157
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.ContextAwareResult.Complete(IntPtr userToken)
+   at System.Net.LazyAsyncResult.ProtectedInvokeCallback(Object result, IntPtr userToken)
+   at System.Net.Sockets.Socket.AcceptCallback(Object nullState)
+   at System.Threading._ThreadPoolWaitOrTimerCallback.PerformWaitOrTimerCallback(Object state, Boolean timedOut)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+
+[Global Exception]
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Server\Database\Misc\AuthSystem.ini'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at ConquerServer_v2.Database.ServerDatabase.Init() in C:\Server\ConquerServer_v2\Database\ServerDatabase.cs:line 85
+   at ConquerServer_v2.Program.Main(String[] args) in C:\Server\ConquerServer_v2\Program.cs:line 42
+   at System.AppDomain._nExecuteAssembly(Assembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+[Global Exception]
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Server\Database\Misc\AuthSystem.ini'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at ConquerServer_v2.Database.ServerDatabase.Init() in C:\Server\ConquerServer_v2\Database\ServerDatabase.cs:line 85
+   at ConquerServer_v2.Program.Main(String[] args) in C:\Server\ConquerServer_v2\Program.cs:line 42
+
+[Global Exception]
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Server\Database\Misc\AuthSystem.ini'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at ConquerServer_v2.Database.ServerDatabase.Init() in C:\Server\ConquerServer_v2\Database\ServerDatabase.cs:line 85
+   at ConquerServer_v2.Program.Main(String[] args) in C:\Server\ConquerServer_v2\Program.cs:line 42
+
+[Global Exception]
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Server\Database\Misc\AuthSystem.ini'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at ConquerServer_v2.Database.ServerDatabase.Init() in C:\Server\ConquerServer_v2\Database\ServerDatabase.cs:line 80
+   at ConquerServer_v2.Program.Main(String[] args) in C:\Server\ConquerServer_v2\Program.cs:line 42
+   at System.AppDomain._nExecuteAssembly(Assembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+[Global Exception]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Client.GameClient.Send(Byte[] Packet) in C:\Server\ConquerServer_v2\Client\Game Client.cs:line 217
+   at ConquerServer_v2.SendRangePacket._ProcessMain(SendRangePacketData Data) in C:\Server\ConquerServer_v2\Multithreading\Send Range Thread.cs:line 95
+   at ConquerServer_v2.SendRangePacket._ProcessNewThread(Object obj) in C:\Server\ConquerServer_v2\Multithreading\Send Range Thread.cs:line 105
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+

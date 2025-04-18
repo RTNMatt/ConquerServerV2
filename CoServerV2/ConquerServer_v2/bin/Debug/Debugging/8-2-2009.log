@@ -1,0 +1,41 @@
+[Npc Processor Error - 41, 1, ]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at NpcEngine._41_GetSocketDialog(String[]& dlg)
+   at NpcEngine.ArtisanOu()
+   at NpcEngine.Execute()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at ScriptingEngine.CompiledScript.RunStaticFunction(Type CompiledType, String Method) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\CompiledScript.cs:line 70
+   at ConquerServer_v2.ConquerScriptEngine.ProcessNpc(GameClient Client, Byte OptionID, String Input) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 208
+
+[Npc Processor Error - 35016, 0, ]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.ArgumentException: Failed to parse npc dialog statement `Your equipment can be very important in combat.`
+   at ConquerServer_v2.ConquerScriptEngine.Dialog(INpcPlayer Player, String[] Dlg) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 312
+   at Engine.Dialog(String[] Dlg)
+   at NpcEngine.WuxingOven()
+   at NpcEngine.Execute()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at ScriptingEngine.CompiledScript.RunStaticFunction(Type CompiledType, String Method) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\CompiledScript.cs:line 70
+   at ConquerServer_v2.ConquerScriptEngine.ProcessNpc(GameClient Client, Byte OptionID, String Input) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 208
+
+[Packet Processor - 03F1, 1C]
+System.ArgumentOutOfRangeException: upperBound: 200, lowerBound: 255
+   at ConquerServer_v2.Core.RandomGenerator.Next(Int32 lowerBound, Int32 upperBound) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\RandomGenerator.cs:line 54
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.GetGemBlessWorth(UInt32 ItemID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Item Usuage 0x3F1\Upgrade Enchant, 0x07.cs:line 54
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.UpgradeItemEnchant(GameClient Client, ItemUsuagePacket* Packet) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Item Usuage 0x3F1\Upgrade Enchant, 0x07.cs:line 68
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 43
+
+[Packet Processor - 03F1, 1C]
+System.ArgumentOutOfRangeException: upperBound: 200, lowerBound: 255
+   at ConquerServer_v2.Core.RandomGenerator.Next(Int32 lowerBound, Int32 upperBound) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\RandomGenerator.cs:line 54
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.GetGemBlessWorth(UInt32 ItemID) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Item Usuage 0x3F1\Upgrade Enchant, 0x07.cs:line 54
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.UpgradeItemEnchant(GameClient Client, ItemUsuagePacket* Packet) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Item Usuage 0x3F1\Upgrade Enchant, 0x07.cs:line 68
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 43
+

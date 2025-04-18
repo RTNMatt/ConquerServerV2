@@ -1,0 +1,66 @@
+[Global Exception]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Client.PlayerMiner.SwingPickaxe() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Miner.cs:line 52
+   at ConquerServer_v2.Multithreading.TimerThreads.EventTimers() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Multithreading\Timer Threads.cs:line 261
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+[Packet Processor - 271A, 63]
+System.TypeInitializationException: The type initializer for 'ConquerServer_v2.Database.MineField' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Database.MineField..cctor() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\MineField.cs:line 20
+   --- End of inner exception stack trace ---
+   at ConquerServer_v2.Database.MineField..ctor(UInt32 MapID)
+   at ConquerServer_v2.Client.PlayerMiner.Start(GameClient Owner) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Miner.cs:line 33
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.StartMine(GameClient Client, DataPacket* lpPacket) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Start Mine 0x271A, 0x63.cs:line 16
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 238
+
+[Global Exception]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Client.PlayerMiner.SwingPickaxe() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Miner.cs:line 52
+   at ConquerServer_v2.Multithreading.TimerThreads.EventTimers() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Multithreading\Timer Threads.cs:line 261
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+[Packet Processor - 271A, 63]
+System.TypeInitializationException: The type initializer for 'ConquerServer_v2.Database.MineField' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Database.MineField..cctor() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\MineField.cs:line 20
+   --- End of inner exception stack trace ---
+   at ConquerServer_v2.Database.MineField..ctor(UInt32 MapID)
+   at ConquerServer_v2.Client.PlayerMiner.Start(GameClient Owner) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Miner.cs:line 32
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.StartMine(GameClient Client, DataPacket* lpPacket) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Start Mine 0x271A, 0x63.cs:line 16
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 238
+
+[Packet Processor - 271A, 63]
+System.TypeInitializationException: The type initializer for 'ConquerServer_v2.Database.MineField' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Database.MineField..cctor() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\MineField.cs:line 20
+   --- End of inner exception stack trace ---
+   at ConquerServer_v2.Database.MineField..ctor(UInt32 MapID)
+   at ConquerServer_v2.Client.PlayerMiner.Start(GameClient Owner) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Miner.cs:line 32
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.StartMine(GameClient Client, DataPacket* lpPacket) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Start Mine 0x271A, 0x63.cs:line 16
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 238
+
+[Packet Processor - 271A, 63]
+System.TypeInitializationException: The type initializer for 'ConquerServer_v2.Database.MineField' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Database.MineField..cctor() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\MineField.cs:line 20
+   --- End of inner exception stack trace ---
+   at ConquerServer_v2.Database.MineField..ctor(UInt32 MapID)
+   at ConquerServer_v2.Client.PlayerMiner.Start(GameClient Owner) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Miner.cs:line 32
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.StartMine(GameClient Client, DataPacket* lpPacket) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Start Mine 0x271A, 0x63.cs:line 16
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 238
+
+[Global Exception]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.PlayerMiner.SwingPickaxe() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Miner.cs:line 73
+   at ConquerServer_v2.Multithreading.TimerThreads.EventTimers() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Multithreading\Timer Threads.cs:line 261
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+[Packet Processor - 271A, 63]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.PlayerMiner.SwingPickaxe() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Miner.cs:line 73
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.StartMine(GameClient Client, DataPacket* lpPacket) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Start Mine 0x271A, 0x63.cs:line 18
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 238
+

@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConquerServer_v2</RootNamespace>
+    <AssemblyName>ConquerServer_v2</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;TOURNAMENT_NOBILITY, CODE_DEBUG, PROTECTION_SPEEDHACK, LOG_PACKETS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;TOURNAMENT_NOBILITY, CODE_DEBUG, PROTECTION_SPEEDHACK</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;TOURNAMENT_NOBILITY, CODE_DEBUG, PROTECTION_SPEEDHACK</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;TOURNAMENT_NOBILITY, CODE_DEBUG, PROTECTION_SPEEDHACK</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;TOURNAMENT_NOBILITY, CODE_DEBUG, PROTECTION_SPEEDHACK</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;TOURNAMENT_NOBILITY, CODE_DEBUG, PROTECTION_SPEEDHACK</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BlowfishCFB, Version=1.0.3434.27049, Culture=neutral, processorArchitecture=x86" />
+    <Reference Include="ConquerScriptLinker, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ConquerScriptLinker\bin\Debug\ConquerScriptLinker.dll</HintPath>
+    </Reference>
+    <Reference Include="ManagedOpenSsl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ManagedOpenSsl.dll</HintPath>
+    </Reference>
+    <Reference Include="ScriptingEngine, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ScriptingEngine\bin\Debug\ScriptingEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attack Processor\Calculations.cs" />
+    <Compile Include="Attack Processor\DDALineAlgorithm.cs" />
+    <Compile Include="Attack Processor\Tournaments.cs" />
+    <Compile Include="Attack Processor\Damage.cs" />
+    <Compile Include="Attack Processor\Finalize Attack.cs" />
+    <Compile Include="Attack Processor\Magic.cs" />
+    <Compile Include="Attack Processor\Meele.cs" />
+    <Compile Include="Attack Processor\Safe.cs" />
+    <Compile Include="Attack Processor\Spells\Stigma - 1095.cs" />
+    <Compile Include="Attack Processor\Spells\Cyclone - 1110.cs" />
+    <Compile Include="Attack Processor\Spells\Meditation - 1195.cs" />
+    <Compile Include="Attack Processor\Spells\Pray - 1050, 1100.cs" />
+    <Compile Include="Attack Processor\Spells\Superman - 1025.cs" />
+    <Compile Include="Attack Processor\Spells\XP Shield - 1020.cs" />
+    <Compile Include="Client\Action.cs" />
+    <Compile Include="Client\Admin Types.cs" />
+    <Compile Include="Client\ServerKeyExchange.cs" />
+    <Compile Include="Client\GameCryptography.cs" />
+    <Compile Include="Client\Hybrid Crypt.cs" />
+    <Compile Include="Client\IAssociate.cs" />
+    <Compile Include="Client\Mentor Student.cs" />
+    <Compile Include="Client\Miner.cs" />
+    <Compile Include="Client\NpcLink.cs" />
+    <Compile Include="Client\Team.cs" />
+    <Compile Include="Client\Trade.cs" />
+    <Compile Include="Client\Transform.cs" />
+    <Compile Include="Client\Vendor.cs" />
+    <Compile Include="Core\Assembler.cs" />
+    <Compile Include="Database\MineField.cs" />
+    <Compile Include="Monster AI\MonsterSpawn.cs" />
+    <Compile Include="Multithreading\Attack Thread.cs" />
+    <Compile Include="Multithreading\GeneralQueue.cs" />
+    <Compile Include="Multithreading\SmartQueue.cs" />
+    <Compile Include="Packet Processor\Distribute Stats 0x400.cs" />
+    <Compile Include="Packet Processor\Data 0x271A\Start Mine 0x271A, 0x63.cs" />
+    <Compile Include="Packet Processor\Data 0x271A\Find Teammate 0x271A, 0x6A.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Upgrade Enchant, 0x07.cs" />
+    <Compile Include="Packet Structures\BadPacketException.cs" />
+    <Compile Include="Core\DictionaryV2.cs" />
+    <Compile Include="Core\Directions.cs" />
+    <Compile Include="Client\Equipment.cs" />
+    <Compile Include="Client\Game Client.cs" />
+    <Compile Include="Client\Gems.cs" />
+    <Compile Include="Client\Inventory.cs" />
+    <Compile Include="Core\IScorable.cs" />
+    <Compile Include="Core\Item.cs" />
+    <Compile Include="Client\Nobility.cs" />
+    <Compile Include="Client\PK Mode.cs" />
+    <Compile Include="Client\Screen.cs" />
+    <Compile Include="Client\ServerFlags.cs" />
+    <Compile Include="Client\Skill.cs" />
+    <Compile Include="Client\Stats.cs" />
+    <Compile Include="Client\TimeStampCollection.cs" />
+    <Compile Include="Core\Callbacks.cs" />
+    <Compile Include="Core\Maps.cs" />
+    <Compile Include="Core\Npc.cs" />
+    <Compile Include="Core\RandomGenerator.cs" />
+    <Compile Include="Database\BinaryFile.cs" />
+    <Compile Include="Database\Compresed Bitmap.cs" />
+    <Compile Include="Database\DatabaseAssociate.cs" />
+    <Compile Include="Database\DatabaseItem.cs" />
+    <Compile Include="Database\DatabaseMentorStudent.cs" />
+    <Compile Include="Database\DatabaseSkill.cs" />
+    <Compile Include="Database\DMap.cs" />
+    <Compile Include="Database\Guild.cs" />
+    <Compile Include="Database\IniFile.cs" />
+    <Compile Include="Database\Lottery.cs" />
+    <Compile Include="Database\MapSettings.cs" />
+    <Compile Include="Database\MAttack.cs" />
+    <Compile Include="Database\Nobility.cs" />
+    <Compile Include="Database\PlusItemStats.cs" />
+    <Compile Include="Database\ServerDatabase.cs" />
+    <Compile Include="Database\StandardItemStats.cs" />
+    <Compile Include="Database\Tournaments.cs" />
+    <Compile Include="Database\Warehouse.cs" />
+    <Compile Include="Dump Helpers.cs" />
+    <Compile Include="Core\Entity.cs" />
+    <Compile Include="FlexibleArray.cs" />
+    <Compile Include="Game Processor.cs" />
+    <Compile Include="Core\Kernel.cs" />
+    <Compile Include="GuildWar\GuildWar Kernel.cs" />
+    <Compile Include="Core\SOBMonster.cs" />
+    <Compile Include="Monster AI\MobCollection.cs" />
+    <Compile Include="Monster AI\MobItemGenerator.cs" />
+    <Compile Include="Monster AI\Monster.cs" />
+    <Compile Include="Monster AI\MonsterFamily.cs" />
+    <Compile Include="Monster AI\MonsterSettings.cs" />
+    <Compile Include="Monster AI\MonsterStatus.cs" />
+    <Compile Include="Monster AI\MonsterPet.cs" />
+    <Compile Include="Multithreading\Send UID Thread.cs" />
+    <Compile Include="Multithreading\Creation Thread.cs" />
+    <Compile Include="Multithreading\Execute Script Thread.cs" />
+    <Compile Include="Multithreading\Send Range Thread.cs" />
+    <Compile Include="Multithreading\Send Global Thread.cs" />
+    <Compile Include="Multithreading\Timer Threads.cs" />
+    <Compile Include="Native Imports.cs" />
+    <Compile Include="NetworkServerSocket.cs" />
+    <Compile Include="ConquerScriptEngine.cs" />
+    <Compile Include="Packet Processor\Associates 0x3FB\Request Friend 0x3FB, 0x0A.cs" />
+    <Compile Include="Packet Processor\Associates 0x3FB\Remove Friend 0x3FB, 0x0E.cs" />
+    <Compile Include="Packet Processor\Attacks, Marriage 0x3FE\Accept Marriage 0x3FE, 0x09.cs" />
+    <Compile Include="Packet Processor\Attacks, Marriage 0x3FE\Propose Marriage 0x3FE, 0x08.cs" />
+    <Compile Include="Packet Processor\Attacks, Marriage 0x3FE\Magic 0x3FE, 0x18.cs" />
+    <Compile Include="Packet Processor\Attacks, Marriage 0x3FE\Physical 0x3FE, 0x02, 0x19.cs" />
+    <Compile Include="Packet Processor\Create Character 0x3E9.cs" />
+    <Compile Include="Packet Processor\Data 0x271A\Change Avatar 0x271A, 0x8E.cs" />
+    <Compile Include="Packet Processor\Data 0x271A\Guard Jump 0x271A, 0x82.cs" />
+    <Compile Include="Packet Processor\Data 0x271A\Start Vending 0x271A, 0x6F.cs" />
+    <Compile Include="Packet Processor\Data 0x271A\Request Friend Info 0x271A, 0x4F.cs" />
+    <Compile Include="Packet Processor\Data 0x271A\Enter Portal 0x271A, 0x55.cs" />
+    <Compile Include="Packet Processor\Data 0x271A\Untransform 0x271A, 0x76.cs" />
+    <Compile Include="Packet Processor\Guilds - 0x453, 0x458\Accept Request to Join Guild 0x453.cs" />
+    <Compile Include="Packet Processor\Guilds - 0x453, 0x458\Append Guild Member Info 0x458.cs" />
+    <Compile Include="Packet Processor\Guilds - 0x453, 0x458\Donate to Guild 0x453.cs" />
+    <Compile Include="Packet Processor\Guilds - 0x453, 0x458\Get Guild Information 0x453.cs" />
+    <Compile Include="Packet Processor\Guilds - 0x453, 0x458\Leave Guild 0x453.cs" />
+    <Compile Include="Packet Processor\Guilds - 0x453, 0x458\Request Join Guild 0x453.cs" />
+    <Compile Include="Packet Processor\Item Composition 0x7F4.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Add Vending Item Gold 0x3F1, 0x16.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Add Vending Item CPs 0x3F1, 0x1D.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Buy Vending Item 0x3F1, 0x18.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Drop Gold 0x3F1, 0x26.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Repair Item 0x3F1, 0x0E.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Remove Vending Item 0x3F1, 0x17.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Show Vending Items 0x3F1, 0x15.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Deposit Warehouse Money 0x3F1, 0x0A.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Open Warehouse 0x3F1, 0x09.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Upgrade Level 0x3F1, 0x14.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Upgrade Quality 0x3F1, 0x13.cs" />
+    <Compile Include="Packet Processor\Login Sequence\Send Associates 0x271A, 0x4D.cs" />
+    <Compile Include="Packet Processor\Login Sequence\Send Guild 0x271A, 0x61.cs" />
+    <Compile Include="Packet Processor\Nobility 0x810\Donate 0x810, 0x01.cs" />
+    <Compile Include="Packet Processor\Nobility 0x810\Rankings 0x810, 0x02.cs" />
+    <Compile Include="Packet Processor\Pickup Dropped Item 0x44D.cs" />
+    <Compile Include="Packet Processor\Data 0x271A\Change Action 0x271A, 0x51.cs" />
+    <Compile Include="Packet Processor\Data 0x271A\Change PK Mode 0x271A, 0x60.cs" />
+    <Compile Include="Packet Processor\Data 0x271A\Change Direction 0x271A, 0x4F.cs" />
+    <Compile Include="Packet Processor\Data 0x271A\Revive 0x271A, 0x5E.cs" />
+    <Compile Include="Packet Processor\Data 0x271A\Get Screen 0x271A, 0x72.cs" />
+    <Compile Include="Packet Processor\Data 0x271A\Jump 0x271A, 0x89.cs" />
+    <Compile Include="Packet Processor\Data 0x271A\Request Entity 0x271A, 0x66.cs" />
+    <Compile Include="Packet Processor\DH Exchange.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Buy Item 0x3F1, 0x01.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Drop Item 0x3F1, 0x25.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Equip Item 0x3F1, 0x04.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Sell Item 0x3F1, 0x02.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Unequip Item 0x3F1, 0x06.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Reply Ping 0x3F1, 0x1B.cs" />
+    <Compile Include="Packet Processor\Login Sequence\Complete Login 0x271A, 0x84.cs" />
+    <Compile Include="Packet Processor\Login Sequence\Send Proficiencies 0x271A, 0x4D.cs" />
+    <Compile Include="Packet Processor\Login Sequence\Send Spells 0x271A, 0x4E.cs" />
+    <Compile Include="Packet Processor\Login Sequence\Hotkeys and Inventory 0x271A, 0x4B.cs" />
+    <Compile Include="Packet Processor\Login Sequence\Set Location 0x271A, 0x4A.cs" />
+    <Compile Include="Packet Processor\Login Sequence\Start Login 0x41C.cs" />
+    <Compile Include="Packet Processor\Message Packet 0x3EC.cs" />
+    <Compile Include="Packet Processor\Npc Click 0x7EF, 0x7F0.cs" />
+    <Compile Include="Packet Processor\Process.cs" />
+    <Compile Include="Packet Processor\Socket Gem 0x403.cs" />
+    <Compile Include="Packet Processor\Strings 0x3F7\Guild Member List 0x3F7, 0x0B.cs" />
+    <Compile Include="Packet Processor\Strings 0x3F7\View Equipment 0x3F7, 0x10.cs" />
+    <Compile Include="Packet Processor\Team 0x3FF\Accept Invite Team 0x3FF, 0x03.cs" />
+    <Compile Include="Packet Processor\Team 0x3FF\Accept Join Team 0x3FF, 0x05.cs" />
+    <Compile Include="Packet Processor\Team 0x3FF\Kick Team 0x3FF, 0x07.cs" />
+    <Compile Include="Packet Processor\Team 0x3FF\Leave Team 0x3FF, 0x02.cs" />
+    <Compile Include="Packet Processor\Team 0x3FF\Invite Join Team 0x3FF, 0x04.cs" />
+    <Compile Include="Packet Processor\Team 0x3FF\Request Join Team 0x3FF, 0x01.cs" />
+    <Compile Include="Packet Processor\Team 0x3FF\Dismiss Team 0x3FF, 0x06.cs" />
+    <Compile Include="Packet Processor\Team 0x3FF\Create Team 0x3FF, 0x00.cs" />
+    <Compile Include="Packet Processor\Trade - 0x420\Add ConquerPoints to Trade 0x420.cs" />
+    <Compile Include="Packet Processor\Trade - 0x420\Add Item to Trade 0x420.cs" />
+    <Compile Include="Packet Processor\Trade - 0x420\Add Money to Trade 0x420.cs" />
+    <Compile Include="Packet Processor\Trade - 0x420\Close Trade 0x420.cs" />
+    <Compile Include="Packet Processor\Trade - 0x420\Complete Trade 0x420.cs" />
+    <Compile Include="Packet Processor\Trade - 0x420\Create New Trade 0x420.cs" />
+    <Compile Include="Packet Processor\Walk 0x2715.cs" />
+    <Compile Include="Packet Processor\Warehouse 0x44E\Withdraw Item 0x44E, 0x02.cs" />
+    <Compile Include="Packet Processor\Warehouse 0x44E\Deposit Item 0x44E, 0x01.cs" />
+    <Compile Include="Packet Processor\Warehouse 0x44E\Show Items 0x44E, 0x00.cs" />
+    <Compile Include="Packet Structures\Assign Pet Packet 0x7F3.cs" />
+    <Compile Include="Packet Structures\Associate 0x3FB.cs" />
+    <Compile Include="Packet Structures\Associate Info 0x7F1.cs" />
+    <Compile Include="Packet Structures\Character Information 0x3EE.cs" />
+    <Compile Include="Packet Structures\Compose Item 0x7F4.cs" />
+    <Compile Include="Packet Structures\Hero Items 0x2E.cs" />
+    <Compile Include="Packet Structures\Distribute Stat 0x400.cs" />
+    <Compile Include="Packet Structures\Create Character Packet 0x3E9.cs" />
+    <Compile Include="Packet Structures\Date Time Packet 0x409.cs" />
+    <Compile Include="Packet Structures\Dropped Item 0x44D.cs" />
+    <Compile Include="Packet Structures\Gem Socket 0x403.cs" />
+    <Compile Include="Packet Structures\Guild Info 0x452.cs" />
+    <Compile Include="Packet Structures\Guild Member Info 0x458.cs" />
+    <Compile Include="Packet Structures\Guild Request 0x453.cs" />
+    <Compile Include="Packet Structures\Item Packet 0x3F0.cs" />
+    <Compile Include="Packet Structures\Map Effects 0x3F8.cs" />
+    <Compile Include="Packet Structures\Map Status 0x456.cs" />
+    <Compile Include="Packet Structures\Mentor Student Info 0x812.cs" />
+    <Compile Include="Packet Structures\Nobility Rank 0x810.cs" />
+    <Compile Include="Packet Structures\Npc Click 0x7EF, 0x7F0.cs" />
+    <Compile Include="Packet Structures\Request Attack 0x3FE.cs" />
+    <Compile Include="Packet Structures\Spawn Npc 0x7EE.cs" />
+    <Compile Include="Packet Structures\Spawn SOB 0x455.cs" />
+    <Compile Include="Packet Structures\Spell Animation Packet 0x451.cs" />
+    <Compile Include="Packet Structures\Spell Packet 0x44F.cs" />
+    <Compile Include="Packet Structures\Data Packet 0x271A.cs" />
+    <Compile Include="Packet Structures\Hand Shake.cs" />
+    <Compile Include="Packet Structures\Item Usuage 0x3F1.cs" />
+    <Compile Include="Packet Structures\Message Packet 0x3EC.cs" />
+    <Compile Include="Packet Structures\Packet Builder.cs" />
+    <Compile Include="Packet Structures\Proficiency Packet 0x401.cs" />
+    <Compile Include="Packet Structures\Spawn Entity 0x271E.cs" />
+    <Compile Include="Packet Structures\String 0x3F7.cs" />
+    <Compile Include="Packet Structures\Team Action Packet 0x3FF.cs" />
+    <Compile Include="Packet Structures\Teammate Packet 0x402.cs" />
+    <Compile Include="Packet Structures\Trade 0x420.cs" />
+    <Compile Include="Packet Structures\Update Packet 0x2721.cs" />
+    <Compile Include="Packet Structures\Vending Item 0x454.cs" />
+    <Compile Include="Packet Structures\Walk Packet 0x2715.cs" />
+    <Compile Include="Packet Structures\Warehouse 0x44E.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Completed List.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

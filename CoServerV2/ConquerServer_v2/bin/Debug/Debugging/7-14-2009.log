@@ -1,0 +1,30 @@
+[Global Exception]
+System.ArgumentException: Attempting to spawn monsters on mapid 1217, with no data-map provided.
+   at ConquerServer_v2.Database.ServerDatabase.Init() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\ServerDatabase.cs:line 151
+   at ConquerServer_v2.Program.Main(String[] args) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Program.cs:line 40
+
+[Global Exception]
+System.ArgumentException: Attempting to spawn monsters on mapid 1219, with no data-map provided.
+   at ConquerServer_v2.Database.ServerDatabase.Init() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\ServerDatabase.cs:line 151
+   at ConquerServer_v2.Program.Main(String[] args) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Program.cs:line 40
+
+[Global Exception]
+System.ArgumentException: Attempting to spawn monsters on mapid 1300, with no data-map provided.
+   at ConquerServer_v2.Database.ServerDatabase.Init() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\ServerDatabase.cs:line 151
+   at ConquerServer_v2.Program.Main(String[] args) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Program.cs:line 40
+
+[Global Exception]
+System.ArgumentException: Attempting to spawn monsters on mapid 4021, with no data-map provided.
+   at ConquerServer_v2.Database.ServerDatabase.Init() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\ServerDatabase.cs:line 151
+   at ConquerServer_v2.Program.Main(String[] args) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Program.cs:line 40
+
+[Global Exception]
+System.ArgumentException: Attempting to spawn monsters on mapid 4025, with no data-map provided.
+   at ConquerServer_v2.Database.ServerDatabase.Init() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\ServerDatabase.cs:line 151
+   at ConquerServer_v2.Program.Main(String[] args) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Program.cs:line 40
+
+[Global Exception]
+System.ArgumentException: Attempting to spawn monsters on mapid 6002, with no data-map provided.
+   at ConquerServer_v2.Database.ServerDatabase.Init() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\ServerDatabase.cs:line 151
+   at ConquerServer_v2.Program.Main(String[] args) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Program.cs:line 40
+

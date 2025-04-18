@@ -1,0 +1,136 @@
+[Physical Processor Error - Player vs Monster : Physical]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.Proficiency.get_NeededExperience() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Skill.cs:line 91
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(UInt16 wType, Int32 Amount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 711
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(Int32 damageAmount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 696
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.FinalizeAttack(IBaseEntity Attacker, SpellAnimationPacket Animate) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Finalize Attack.cs:line 163
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 102
+
+[Physical Processor Error - Player vs Monster : Physical]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.Proficiency.get_NeededExperience() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Skill.cs:line 91
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(UInt16 wType, Int32 Amount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 711
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(Int32 damageAmount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 696
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.FinalizeAttack(IBaseEntity Attacker, SpellAnimationPacket Animate) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Finalize Attack.cs:line 163
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 102
+
+[Physical Processor Error - Player vs Monster : Physical]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.Proficiency.get_NeededExperience() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Skill.cs:line 91
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(UInt16 wType, Int32 Amount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 711
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(Int32 damageAmount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 696
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.FinalizeAttack(IBaseEntity Attacker, SpellAnimationPacket Animate) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Finalize Attack.cs:line 163
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 102
+
+[Physical Processor Error - Player vs Monster : Physical]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.Proficiency.get_NeededExperience() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Skill.cs:line 91
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(UInt16 wType, Int32 Amount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 711
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(Int32 damageAmount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 696
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.FinalizeAttack(IBaseEntity Attacker, SpellAnimationPacket Animate) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Finalize Attack.cs:line 163
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 102
+
+[Physical Processor Error - Player vs Monster : Physical]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.Proficiency.get_NeededExperience() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Skill.cs:line 91
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(UInt16 wType, Int32 Amount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 711
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(Int32 damageAmount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 696
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.FinalizeAttack(IBaseEntity Attacker, SpellAnimationPacket Animate) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Finalize Attack.cs:line 163
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 102
+
+[Physical Processor Error - Player vs Monster : Physical]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.Proficiency.get_NeededExperience() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Skill.cs:line 91
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(UInt16 wType, Int32 Amount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 711
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(Int32 damageAmount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 696
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.FinalizeAttack(IBaseEntity Attacker, SpellAnimationPacket Animate) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Finalize Attack.cs:line 163
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 102
+
+[Physical Processor Error - Player vs Monster : Physical]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.Proficiency.get_NeededExperience() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Skill.cs:line 91
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(UInt16 wType, Int32 Amount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 711
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(Int32 damageAmount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 696
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.FinalizeAttack(IBaseEntity Attacker, SpellAnimationPacket Animate) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Finalize Attack.cs:line 163
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 102
+
+[Physical Processor Error - Player vs Monster : Physical]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.Proficiency.get_NeededExperience() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Skill.cs:line 91
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(UInt16 wType, Int32 Amount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 711
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(Int32 damageAmount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 696
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.FinalizeAttack(IBaseEntity Attacker, SpellAnimationPacket Animate) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Finalize Attack.cs:line 163
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 102
+
+[Physical Processor Error - Player vs Monster : Physical]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.Proficiency.get_NeededExperience() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Skill.cs:line 91
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(UInt16 wType, Int32 Amount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 711
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(Int32 damageAmount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 696
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.FinalizeAttack(IBaseEntity Attacker, SpellAnimationPacket Animate) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Finalize Attack.cs:line 163
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 102
+
+[Physical Processor Error - Player vs Monster : Physical]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.Proficiency.get_NeededExperience() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Skill.cs:line 91
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(UInt16 wType, Int32 Amount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 711
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(Int32 damageAmount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 696
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.FinalizeAttack(IBaseEntity Attacker, SpellAnimationPacket Animate) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Finalize Attack.cs:line 163
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 102
+
+[Physical Processor Error - Player vs Monster : Physical]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.Proficiency.get_NeededExperience() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Skill.cs:line 91
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(UInt16 wType, Int32 Amount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 711
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(Int32 damageAmount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 696
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.FinalizeAttack(IBaseEntity Attacker, SpellAnimationPacket Animate) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Finalize Attack.cs:line 163
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 102
+
+[Physical Processor Error - Player vs Monster : Physical]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.Proficiency.get_NeededExperience() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Skill.cs:line 91
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(UInt16 wType, Int32 Amount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 711
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(Int32 damageAmount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 696
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.FinalizeAttack(IBaseEntity Attacker, SpellAnimationPacket Animate) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Finalize Attack.cs:line 163
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 102
+
+[Physical Processor Error - Player vs Monster : Physical]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.Proficiency.get_NeededExperience() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Skill.cs:line 91
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(UInt16 wType, Int32 Amount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 711
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(Int32 damageAmount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 696
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.FinalizeAttack(IBaseEntity Attacker, SpellAnimationPacket Animate) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Finalize Attack.cs:line 163
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 102
+
+[Physical Processor Error - Player vs Monster : Physical]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.Proficiency.get_NeededExperience() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Skill.cs:line 91
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(UInt16 wType, Int32 Amount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 711
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(Int32 damageAmount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 696
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.FinalizeAttack(IBaseEntity Attacker, SpellAnimationPacket Animate) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Finalize Attack.cs:line 163
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 102
+
+[Physical Processor Error - Player vs Monster : Physical]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.Proficiency.get_NeededExperience() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Skill.cs:line 91
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(UInt16 wType, Int32 Amount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 711
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(Int32 damageAmount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 696
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.FinalizeAttack(IBaseEntity Attacker, SpellAnimationPacket Animate) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Finalize Attack.cs:line 163
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 102
+
+[Physical Processor Error - Player vs Monster : Physical]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.Proficiency.get_NeededExperience() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Skill.cs:line 91
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(UInt16 wType, Int32 Amount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 711
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(Int32 damageAmount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 696
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.FinalizeAttack(IBaseEntity Attacker, SpellAnimationPacket Animate) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Finalize Attack.cs:line 163
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 102
+
+[Physical Processor Error - Player vs Monster : Physical]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.Proficiency.get_NeededExperience() in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Skill.cs:line 91
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(UInt16 wType, Int32 Amount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 711
+   at ConquerServer_v2.Client.GameClient.AwardProfExperience(Int32 damageAmount) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Game Client.cs:line 696
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.FinalizeAttack(IBaseEntity Attacker, SpellAnimationPacket Animate) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Finalize Attack.cs:line 163
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 102
+

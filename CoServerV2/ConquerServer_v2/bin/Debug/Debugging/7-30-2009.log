@@ -1,0 +1,6 @@
+[Magical Processor Error - 1005 4]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessRecruit(GameClient AttackerClient, IBaseEntity Opponent, MAttackData* Data, Dictionary`2& Targets) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Magic.cs:line 186
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessBySort(IBaseEntity Attacker, GameClient AttackerClient, IBaseEntity Opponent, MAttackData* Data, UInt16 X, UInt16 Y, MagicSort Sort, Dictionary`2& Targets) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Magic.cs:line 112
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMagic(IBaseEntity Attacker, IBaseEntity Opponent, MAttackData* Data, UInt16 X, UInt16 Y) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Magic.cs:line 37
+

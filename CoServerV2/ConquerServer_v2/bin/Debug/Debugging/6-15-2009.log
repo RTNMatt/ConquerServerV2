@@ -1,0 +1,22 @@
+[Packet Processor - 03FE, 18]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.HybridBigKey_t.BigDecrypt(Byte* block, Byte* out_block, Int32 block_size) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Hybrid Crypt.cs:line 73
+   at ConquerServer_v2.Client.SpellCrypto.Decrypt(UInt32& UID, UInt16& SpellID, UInt16& X, UInt16& Y) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Hybrid Crypt.cs:line 130
+   at ConquerServer_v2.Packet_Structures.RequestAttackPacket.Decrypt(UInt32 Seed, SpellCrypto Crypt) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Structures\Request Attack 0x3FE.cs:line 54
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 64
+
+[Packet Processor - 03FE, 18]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.HybridBigKey_t.BigDecrypt(Byte* block, Byte* out_block, Int32 block_size) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Hybrid Crypt.cs:line 73
+   at ConquerServer_v2.Client.SpellCrypto.Decrypt(UInt32& UID, UInt16& SpellID, UInt16& X, UInt16& Y) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Hybrid Crypt.cs:line 130
+   at ConquerServer_v2.Packet_Structures.RequestAttackPacket.Decrypt(UInt32 Seed, SpellCrypto Crypt) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Structures\Request Attack 0x3FE.cs:line 54
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 64
+
+[Packet Processor - 07EF, 00]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ScriptingEngine.ScriptEngine.CompileFiles(String[] CompiledFiles, CompilerParameters cParams, CompilerResults& res) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 158
+   at ScriptingEngine.ScriptEngine.CompileScript(String FileName) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 250
+   at ConquerServer_v2.NpcScriptEngine.Process(GameClient Client, Byte OptionID, String Input) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\NpcScriptEngine.cs:line 155
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.NpcStartup(GameClient Client, NpcClickPacket* Packet) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Npc Click 0x7EF, 0x7F0.cs:line 20
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 95
+

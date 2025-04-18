@@ -1,0 +1,22 @@
+[Packet Processor - 0810, 02]
+System.ArgumentOutOfRangeException: Number was less than the array's lower bound in the first dimension.
+Parameter name: srcIndex
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length)
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.ShowNobilityRankings(GameClient Client, Byte* Ptr)
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type)
+
+[Packet Processor - 0810, 02]
+System.ArgumentOutOfRangeException: Number was less than the array's lower bound in the first dimension.
+Parameter name: srcIndex
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length)
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.ShowNobilityRankings(GameClient Client, Byte* Ptr)
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type)
+
+[Packet Processor - 0810, 02]
+System.ArgumentException: Source array was not long enough. Check srcIndex and length, and the array's lower bounds.
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.ShowNobilityRankings(GameClient Client, Byte* Ptr) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Nobility 0x810\Rankings 0x810, 0x02.cs:line 34
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 189
+

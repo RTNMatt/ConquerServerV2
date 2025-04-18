@@ -1,0 +1,6 @@
+[Packet Processor - 271A, 89]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Core.Kernel.GetScreen(GameClient Client, ConquerCallback Callback) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Core\Kernel.cs:line 228
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.AppendJump(GameClient Client, DataPacket* Packet) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Data 0x271A\Jump 0x271A, 0x89.cs:line 63
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 113
+

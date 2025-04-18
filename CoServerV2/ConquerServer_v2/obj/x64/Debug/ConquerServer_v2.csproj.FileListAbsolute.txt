@@ -1,0 +1,9 @@
+C:\Server\ConquerServer_v2\obj\x64\Debug\ResolveAssemblyReference.cache
+C:\Server\ConquerServer_v2\bin\x64\Debug\ConquerServer_v2.exe
+C:\Server\ConquerServer_v2\bin\x64\Debug\ConquerServer_v2.pdb
+C:\Server\ConquerServer_v2\bin\x64\Debug\ConquerScriptLinker.dll
+C:\Server\ConquerServer_v2\bin\x64\Debug\ScriptingEngine.dll
+C:\Server\ConquerServer_v2\bin\x64\Debug\ScriptingEngine.pdb
+C:\Server\ConquerServer_v2\bin\x64\Debug\ConquerScriptLinker.pdb
+C:\Server\ConquerServer_v2\obj\x64\Debug\ConquerServer_v2.exe
+C:\Server\ConquerServer_v2\obj\x64\Debug\ConquerServer_v2.pdb

@@ -1,0 +1,5 @@
+[Database - Load Character]
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ConquerServer_v2.Client.ClientEquipment.set_Item(ItemPosition Position, IItem value) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Client\Equipment.cs:line 23
+   at ConquerServer_v2.Database.ServerDatabase.LoadPlayer(GameClient Client, Int32 PasswordCheckSum, Boolean& NewCharacter) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\ServerDatabase.cs:line 211
+

@@ -1,0 +1,17 @@
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2_Auth\bin\Debug\ConquerServer_v2_Auth.exe
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2_Auth\bin\Debug\ConquerServer_v2_Auth.pdb
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2_Auth\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2_Auth\obj\Debug\ConquerServer_v2_Auth.exe
+C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2_Auth\obj\Debug\ConquerServer_v2_Auth.pdb
+C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2_Auth\obj\Debug\ConquerServer_v2_Auth.exe
+C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2_Auth\obj\Debug\ConquerServer_v2_Auth.pdb
+C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2_Auth\bin\Debug\ConquerServer_v2_Auth.exe
+C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2_Auth\bin\Debug\ConquerServer_v2_Auth.pdb
+C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2_Auth\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Matt\Desktop\CO Server 3\ConquerServer_v2_Auth\bin\Debug\ConquerServer_v2_Auth.exe.config
+E:\CoServer_V3\ConquerServer_v2_Auth\bin\Debug\ConquerServer_v2_Auth.exe.config
+E:\CoServer_V3\ConquerServer_v2_Auth\obj\Debug\ConquerServer_v2_Auth.exe
+E:\CoServer_V3\ConquerServer_v2_Auth\obj\Debug\ConquerServer_v2_Auth.pdb
+E:\CoServer_V3\ConquerServer_v2_Auth\bin\Debug\ConquerServer_v2_Auth.exe
+E:\CoServer_V3\ConquerServer_v2_Auth\bin\Debug\ConquerServer_v2_Auth.pdb
+E:\CoServer_V3\ConquerServer_v2_Auth\obj\Debug\ResolveAssemblyReference.cache

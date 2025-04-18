@@ -1,0 +1,266 @@
+[Npc Processor Error - 35015, 4, ]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at NpcEngine.Ethereal()
+   at NpcEngine.Execute()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at ScriptingEngine.CompiledScript.RunStaticFunction(Type CompiledType, String Method) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\CompiledScript.cs:line 70
+   at ConquerServer_v2.ConquerScriptEngine.ProcessNpc(GameClient Client, Byte OptionID, String Input) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 208
+
+[Global Exception]
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at ConquerServer_v2.Database.ServerDatabase.Init() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\ServerDatabase.cs:line 182
+   at ConquerServer_v2.Program.Main(String[] args) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Program.cs:line 41
+
+[Global Exception]
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at ConquerServer_v2.Database.ServerDatabase.Init() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\ServerDatabase.cs:line 182
+   at ConquerServer_v2.Program.Main(String[] args) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Program.cs:line 41
+   at System.AppDomain._nExecuteAssembly(Assembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+[Global Exception]
+System.ArgumentException: No family found for CQ_Generator file C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\Database\MonsterSpawns\1000\RockMonster\1.ini
+   at ConquerServer_v2.Database.ServerDatabase.Init() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\ServerDatabase.cs:line 207
+   at ConquerServer_v2.Program.Main(String[] args) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Program.cs:line 41
+   at System.AppDomain._nExecuteAssembly(Assembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+[Global Exception]
+System.ArgumentException: No family found for CQ_Generator file C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\Database\MonsterSpawns\1000\RockMonster\1.ini
+   at ConquerServer_v2.Database.ServerDatabase.Init() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\ServerDatabase.cs:line 208
+   at ConquerServer_v2.Program.Main(String[] args) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Program.cs:line 41
+   at System.AppDomain._nExecuteAssembly(Assembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+[Global Exception]
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at ConquerServer_v2.Database.ServerDatabase.Init() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\ServerDatabase.cs:line 182
+   at ConquerServer_v2.Program.Main(String[] args) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Program.cs:line 41
+
+[Global Exception]
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at ConquerServer_v2.Database.ServerDatabase.Init() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\ServerDatabase.cs:line 182
+   at ConquerServer_v2.Program.Main(String[] args) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Program.cs:line 41
+   at System.AppDomain._nExecuteAssembly(Assembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+[Global Exception]
+System.ArgumentException: No family found for CQ_Generator file C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\Database\MonsterSpawns\1000\RockMonster\1.ini
+   at ConquerServer_v2.Database.ServerDatabase.Init() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\ServerDatabase.cs:line 209
+   at ConquerServer_v2.Program.Main(String[] args) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Program.cs:line 41
+   at System.AppDomain._nExecuteAssembly(Assembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+[Global Exception]
+System.ArgumentException: Attempting to spawn monsters on mapid 4021, with no data-map provided.
+   at ConquerServer_v2.Database.ServerDatabase.Init() in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\ServerDatabase.cs:line 197
+   at ConquerServer_v2.Program.Main(String[] args) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Program.cs:line 41
+   at System.AppDomain._nExecuteAssembly(Assembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+[Monster AI Exception]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Monster_AI.MonsterSpawn.ArtificialIntelligence(Object Argument) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MonsterSpawn.cs:line 166
+
+[Monster AI Exception]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Monster_AI.MonsterSpawn.ArtificialIntelligence(Object Argument) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MonsterSpawn.cs:line 166
+
+[Monster AI Exception]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Monster_AI.MonsterSpawn.ArtificialIntelligence(Object Argument) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MonsterSpawn.cs:line 166
+
+[Monster AI Exception]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Monster_AI.MonsterSpawn.ArtificialIntelligence(Object Argument) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MonsterSpawn.cs:line 166
+
+[Monster AI Exception]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Monster_AI.MonsterSpawn.ArtificialIntelligence(Object Argument) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Monster AI\MonsterSpawn.cs:line 166
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Physical Processor Error - Monster vs Player : Physical]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Attack_Processor.AttackProcessor.ProcessMeele(IBaseEntity Attacker, IBaseEntity Opponent, AttackID AttackType) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Attack Processor\Meele.cs:line 79
+
+[Npc Processor Error - 3600, 1, ]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at NpcEngine.Alex()
+   at NpcEngine.Execute()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at ScriptingEngine.CompiledScript.RunStaticFunction(Type CompiledType, String Method) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\CompiledScript.cs:line 70
+   at ConquerServer_v2.ConquerScriptEngine.ProcessNpc(GameClient Client, Byte OptionID, String Input) in c:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 208
+

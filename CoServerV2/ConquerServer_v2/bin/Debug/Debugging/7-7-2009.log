@@ -1,0 +1,10 @@
+[Packet Processor - 03F1, 18]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.BuyVendingItem(GameClient Client, ItemUsuagePacket* Packet) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Item Usuage 0x3F1\Buy Vending Item 0x3F1, 0x18.cs:line 15
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 48
+
+[Packet Processor - 03F1, 18]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.BuyVendingItem(GameClient Client, ItemUsuagePacket* Packet) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Item Usuage 0x3F1\Buy Vending Item 0x3F1, 0x18.cs:line 15
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 48
+

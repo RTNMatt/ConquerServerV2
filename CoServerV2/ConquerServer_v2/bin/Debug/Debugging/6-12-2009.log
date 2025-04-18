@@ -1,0 +1,72 @@
+[Packet Processor - 07EF, 00
+System.IO.FileNotFoundException: Could not find file 'c:\users\sher\documents\visual studio 2008\conquer_v5090\conquerserver_v2\database\scripts\65221.vb'.
+File name: 'c:\users\sher\documents\visual studio 2008\conquer_v5090\conquerserver_v2\database\scripts\65221.vb'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at ScriptingEngine.ScriptEngine.GetIncludeFiles(String StartFile, List`1& Files) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 166
+   at ScriptingEngine.ScriptEngine.CompileScript(String FileName) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 235
+   at ScriptingEngine.ScriptEngine.CompileScriptFromBin(String FileName) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 218
+   at ConquerServer_v2.NpcScriptEngine.Process(GameClient Client, Byte OptionID, String Input) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\NpcScriptEngine.cs:line 134
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.NpcStartup(GameClient Client, NpcClickPacket* Packet) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Npc Start 0x7EF.cs:line 17
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 54
+
+[Packet Processor - 07EF, 00
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ScriptingEngine.CompiledScript.SetStaticVariable(Type Type, String Field, Object Value) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\CompiledScript.cs:line 51
+   at ConquerServer_v2.NpcScriptEngine.Process(GameClient Client, Byte OptionID, String Input)
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.NpcStartup(GameClient Client, NpcClickPacket* Packet)
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type)
+
+[Packet Processor - 07EF, 00
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ScriptingEngine.CompiledScript.SetStaticVariable(Type Type, String Field, Object Value) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\CompiledScript.cs:line 51
+   at ConquerServer_v2.NpcScriptEngine.Process(GameClient Client, Byte OptionID, String Input) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\NpcScriptEngine.cs:line 146
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.NpcStartup(GameClient Client, NpcClickPacket* Packet) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Npc Start 0x7EF.cs:line 17
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 54
+
+[Packet Processor - 07EF, 00
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.NpcScriptEngine.Dialog(INpcPlayer Player, String[] Dlg) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\NpcScriptEngine.cs:line 172
+   at Engine.Dialog(String[] Dlg)
+   at NpcEngine.Execute()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at ScriptingEngine.CompiledScript.RunStaticFunction(Type CompiledType, String Method) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\CompiledScript.cs:line 70
+   at ConquerServer_v2.NpcScriptEngine.Process(GameClient Client, Byte OptionID, String Input) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\NpcScriptEngine.cs:line 157
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.NpcStartup(GameClient Client, NpcClickPacket* Packet) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Npc Start 0x7EF.cs:line 17
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 54
+
+[Packet Processor - 07EF, 00
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.NpcScriptEngine.Dialog(INpcPlayer Player, String[] Dlg)
+   at Engine.Dialog(String[] Dlg)
+   at NpcEngine.Execute()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at ScriptingEngine.CompiledScript.RunStaticFunction(Type CompiledType, String Method) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\CompiledScript.cs:line 70
+   at ConquerServer_v2.NpcScriptEngine.Process(GameClient Client, Byte OptionID, String Input)
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.NpcStartup(GameClient Client, NpcClickPacket* Packet)
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type)
+
+[Packet Processor - 07EF, 00]
+System.ArgumentException: Object of type 'System.Func`2[System.UInt32,ConquerScriptLinker.INpcPlayer]' cannot be converted to type 'System.Func`2[System.String,ConquerScriptLinker.INpcPlayer]'.
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.RtFieldInfo.InternalSetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, CultureInfo culture, Boolean doVisibilityCheck, Boolean doCheckConsistency)
+   at System.Reflection.RtFieldInfo.InternalSetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, CultureInfo culture, Boolean doVisibilityCheck)
+   at System.Reflection.RtFieldInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, CultureInfo culture)
+   at ScriptingEngine.ScriptEngine.CompileFiles(String[] CompiledFiles, CompilerParameters cParams, CompilerResults& res) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 158
+   at ScriptingEngine.ScriptEngine.CompileScript(String FileName) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 250
+   at ConquerServer_v2.NpcScriptEngine.Process(GameClient Client, Byte OptionID, String Input) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\NpcScriptEngine.cs:line 155
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.NpcStartup(GameClient Client, NpcClickPacket* Packet) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Npc Click 0x7EF, 0x7F0.cs:line 20
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 54
+

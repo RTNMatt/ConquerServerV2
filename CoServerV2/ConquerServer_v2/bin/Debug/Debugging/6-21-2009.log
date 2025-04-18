@@ -1,0 +1,21 @@
+[Packet Processor - 03F7, 0B]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Packet_Structures.StringPacket.op_Implicit(StringPacket Packet) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Structures\String 0x3F7.cs:line 29
+   at ConquerServer_v2.Database.Guild.QueryMemberList(Int32 StartAt) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Database\Guild.cs:line 526
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.GuildMemberList(GameClient Client, StringPacket Packet) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Strings 0x3F7\Guild Member List 0x3F7, 0x0B.cs:line 14
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Packet Processor\Process.cs:line 48
+
+[Packet Processor - 03F7, 0B]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Packet_Structures.StringPacket.op_Implicit(StringPacket Packet)
+   at ConquerServer_v2.Database.Guild.QueryMemberList(Int32 StartAt)
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.GuildMemberList(GameClient Client, StringPacket Packet)
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type)
+
+[Packet Processor - 03F7, 0B]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.Packet_Structures.StringPacket.op_Implicit(StringPacket Packet)
+   at ConquerServer_v2.Database.Guild.QueryMemberList(Int32 StartAt)
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.GuildMemberList(GameClient Client, StringPacket Packet)
+   at ConquerServer_v2.Packet_Processor.PacketProcessor.Process(GameClient Client, Byte* Packet, Byte[] SafePacket, UInt16 Type)
+

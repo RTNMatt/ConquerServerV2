@@ -1,0 +1,34 @@
+[Global Exception]
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'c:\users\sher\documents\visual studio 2008\conquer_v5090\conquerserver_v2\database\scripts\itemss\process.vb'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at ScriptingEngine.ScriptEngine.GetIncludeFiles(String StartFile, List`1& Files) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 165
+   at ScriptingEngine.ScriptEngine.CompileScript(String FileName) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ScriptingEngine\ScriptEngine.cs:line 252
+   at ConquerServer_v2.ConquerScriptEngine.ProcessItem(GameClient Client, Item Item) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 229
+   at ConquerServer_v2.ExecuteScriptThread.ExecuteScriptQueue.OnDequeue(ExecuteScriptData data) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Multithreading\Execute Script Thread.cs:line 42
+   at ConquerServer_v2.SmartQueue`1.MainThread(Object arg) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Multithreading\SmartQueue.cs:line 48
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+[Global Exception]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.ConquerScriptEngine.ProcessItem(GameClient Client, Item Item) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 242
+   at ConquerServer_v2.ExecuteScriptThread.ExecuteScriptQueue.OnDequeue(ExecuteScriptData data) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Multithreading\Execute Script Thread.cs:line 42
+   at ConquerServer_v2.SmartQueue`1.MainThread(Object arg) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Multithreading\SmartQueue.cs:line 48
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+[Global Exception]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConquerServer_v2.ConquerScriptEngine.ProcessItem(GameClient Client, Item Item) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\ConquerScriptEngine.cs:line 243
+   at ConquerServer_v2.ExecuteScriptThread.ExecuteScriptQueue.OnDequeue(ExecuteScriptData data) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Multithreading\Execute Script Thread.cs:line 42
+   at ConquerServer_v2.SmartQueue`1.MainThread(Object arg) in C:\Users\Sher\Documents\Visual Studio 2008\Conquer_v5090\ConquerServer_v2\ConquerServer_v2\Multithreading\SmartQueue.cs:line 48
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(Object obj)
+
