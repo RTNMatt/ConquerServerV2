@@ -1,0 +1,4 @@
+READ ME
+
+
+Simple read me atm. Working on ConquerServer v2 from Hybrid's release. Links and more to be added in the future. 
