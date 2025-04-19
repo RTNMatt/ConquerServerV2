@@ -163,6 +163,7 @@
     <Compile Include="Packet Processor\Data 0x271A\Start Mine 0x271A, 0x63.cs" />
     <Compile Include="Packet Processor\Data 0x271A\Find Teammate 0x271A, 0x6A.cs" />
     <Compile Include="Packet Processor\Item Usuage 0x3F1\Upgrade Enchant, 0x07.cs" />
+    <Compile Include="Packet Processor\Item Usuage 0x3F1\Withdraw Warehouse Money 0x3F1, 0x0B.cs" />
     <Compile Include="Packet Structures\BadPacketException.cs" />
     <Compile Include="Core\DictionaryV2.cs" />
     <Compile Include="Core\Directions.cs" />

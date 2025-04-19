@@ -10,12 +10,14 @@ namespace ConquerServer_v2.Packet_Processor
     {
         public static void WithdrawWarehouseMoney(GameClient Client, ItemUsuagePacket* lpPacket)
         {
+            // Create a Warehouse object for the player's active warehouse, read current money
+            Warehouse wh = new Warehouse(Client.Account, Client.ActiveWarehouseID);
+            long storedMoney = wh.ReadGold();
             //Check if the player has enough money in the warehouse to withdraw
             if (lpPacket->dwParam1 <= storedMoney)
             {
                 // Create a Warehouse object for the player's active warehouse, read current money
-                WithdrawWarehouseMoney wh = new Warehouse(Client.Account, Client.ActiveWarehouseID);
-                long storedMoney = wh.ReadGold();
+                
 
                 // Prevent over withdraw, this is a warehouse not a bank
                 if (storedMoney - lpPacket->dwParam1 < 0)
@@ -27,7 +29,7 @@ namespace ConquerServer_v2.Packet_Processor
 
                 // Update the warehouse money in the packet
                 lpPacket->ID = ItemUsuageID.ShowWarehouseMoney;
-                lpPacket->dwParam1 = (uint)Money;
+                lpPacket->dwParam1 = (uint)storedMoney;
                 Client.Send(lpPacket);
 
                 // Send an update packet to show the player their new money total
@@ -39,7 +41,7 @@ namespace ConquerServer_v2.Packet_Processor
             }
             else
             {
-                Client.Send(MessageConst.NOT_ENOUGH_WAREHOUSE_MONEY);
+                
             }
         }
     }
