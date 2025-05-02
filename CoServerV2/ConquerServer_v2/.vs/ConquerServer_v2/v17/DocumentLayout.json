@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|c:\\users\\redme\\onedrive\\documents\\conquerserver\\conquerserverv2\\coserverv2\\conquerserver_v2\\packet processor\\item usuage 0x3f1\\withdraw warehouse money 0x3f1, 0x0b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|solutionrelative:packet processor\\item usuage 0x3f1\\withdraw warehouse money 0x3f1, 0x0b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|c:\\users\\redme\\onedrive\\documents\\conquerserver\\conquerserverv2\\coserverv2\\conquerserver_v2\\packet structures\\warehouse 0x44e.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|solutionrelative:packet structures\\warehouse 0x44e.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|c:\\users\\redme\\onedrive\\documents\\conquerserver\\conquerserverv2\\coserverv2\\conquerserver_v2\\packet processor\\item usuage 0x3f1\\deposit warehouse money 0x3f1, 0x0a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|solutionrelative:packet processor\\item usuage 0x3f1\\deposit warehouse money 0x3f1, 0x0a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\packet processor\\warehouse 0x44e\\deposit item 0x44e, 0x01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|solutionrelative:packet processor\\warehouse 0x44e\\deposit item 0x44e, 0x01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|c:\\users\\redme\\onedrive\\documents\\conquerserver\\conquerserverv2\\coserverv2\\conquerserver_v2\\packet processor\\process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\packet processor\\process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|solutionrelative:packet processor\\process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,16 +19,27 @@
       "RelativeMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|solutionrelative:database\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|c:\\users\\redme\\onedrive\\documents\\conquerserver\\conquerserverv2\\coserverv2\\conquerserver_v2\\client\\game client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Redme\\Desktop\\albetros\\Albetros.Game\\Packet\\Items\\[1102] Warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|c:\\users\\redme\\onedrive\\documents\\conquerserver\\conquerserverv2\\coserverv2\\conquerserver_v2\\packet processor\\item usuage 0x3f1\\deposit warehouse money 0x3f1, 0x0a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|solutionrelative:packet processor\\item usuage 0x3f1\\deposit warehouse money 0x3f1, 0x0a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\packet structures\\item usuage 0x3f1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|solutionrelative:packet structures\\item usuage 0x3f1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\client\\game client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|solutionrelative:client\\game client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\packet processor\\item usuage 0x3f1\\withdraw warehouse money 0x3f1, 0x0b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|solutionrelative:packet processor\\item usuage 0x3f1\\withdraw warehouse money 0x3f1, 0x0b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\game processor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|solutionrelative:game processor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|c:\\users\\redme\\onedrive\\documents\\conquerserver\\conquerserverv2\\coserverv2\\conquerserver_v2\\packet structures\\item usuage 0x3f1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB5DAA7A-8CDA-4A21-80C4-0AB4C3ED592F}|ConquerServer_v2.csproj|solutionrelative:packet structures\\item usuage 0x3f1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,47 +48,59 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 215,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Warehouse.cs",
-              "DocumentMoniker": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Database\\Warehouse.cs",
-              "RelativeDocumentMoniker": "Database\\Warehouse.cs",
-              "ToolTip": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Database\\Warehouse.cs",
-              "RelativeToolTip": "Database\\Warehouse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T23:51:51.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Game Client.cs",
-              "DocumentMoniker": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Client\\Game Client.cs",
-              "RelativeDocumentMoniker": "Client\\Game Client.cs",
-              "ToolTip": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Client\\Game Client.cs",
-              "RelativeToolTip": "Client\\Game Client.cs",
-              "ViewState": "AgIAAEACAAAAAAAAAAAowDoBAAANAAAAAAAAAA==",
+              "Title": "[1102] Warehouse.cs",
+              "DocumentMoniker": "C:\\Users\\Redme\\Desktop\\albetros\\Albetros.Game\\Packet\\Items\\[1102] Warehouse.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Desktop\\albetros\\Albetros.Game\\Packet\\Items\\[1102] Warehouse.cs",
+              "ToolTip": "C:\\Users\\Redme\\Desktop\\albetros\\Albetros.Game\\Packet\\Items\\[1102] Warehouse.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Desktop\\albetros\\Albetros.Game\\Packet\\Items\\[1102] Warehouse.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T19:39:49.249Z",
+              "WhenOpened": "2025-05-02T02:34:53.458Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Withdraw Warehouse Money 0x3F1, 0x0B.cs",
-              "DocumentMoniker": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Packet Processor\\Item Usuage 0x3F1\\Withdraw Warehouse Money 0x3F1, 0x0B.cs",
-              "RelativeDocumentMoniker": "Packet Processor\\Item Usuage 0x3F1\\Withdraw Warehouse Money 0x3F1, 0x0B.cs",
-              "ToolTip": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Packet Processor\\Item Usuage 0x3F1\\Withdraw Warehouse Money 0x3F1, 0x0B.cs",
-              "RelativeToolTip": "Packet Processor\\Item Usuage 0x3F1\\Withdraw Warehouse Money 0x3F1, 0x0B.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAQAAAAAAAAAA==",
+              "Title": "Warehouse 0x44E.cs",
+              "DocumentMoniker": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Packet Structures\\Warehouse 0x44E.cs",
+              "RelativeDocumentMoniker": "Packet Structures\\Warehouse 0x44E.cs",
+              "ToolTip": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Packet Structures\\Warehouse 0x44E.cs",
+              "RelativeToolTip": "Packet Structures\\Warehouse 0x44E.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T18:57:36.064Z",
+              "WhenOpened": "2025-04-19T17:16:39.366Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Process.cs",
+              "DocumentMoniker": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Packet Processor\\Process.cs",
+              "RelativeDocumentMoniker": "Packet Processor\\Process.cs",
+              "ToolTip": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Packet Processor\\Process.cs",
+              "RelativeToolTip": "Packet Processor\\Process.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAUwKwAAAChAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:40:37.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Game Client.cs",
+              "DocumentMoniker": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Client\\Game Client.cs",
+              "RelativeDocumentMoniker": "Client\\Game Client.cs",
+              "ToolTip": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Client\\Game Client.cs",
+              "RelativeToolTip": "Client\\Game Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAP0DAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T19:39:49.249Z"
             },
             {
               "$type": "Document",
@@ -94,20 +117,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Process.cs",
-              "DocumentMoniker": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Packet Processor\\Process.cs",
-              "RelativeDocumentMoniker": "Packet Processor\\Process.cs",
-              "ToolTip": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Packet Processor\\Process.cs",
-              "RelativeToolTip": "Packet Processor\\Process.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC8AAABFAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Deposit Warehouse Money 0x3F1, 0x0A.cs",
+              "DocumentMoniker": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Packet Processor\\Item Usuage 0x3F1\\Deposit Warehouse Money 0x3F1, 0x0A.cs",
+              "RelativeDocumentMoniker": "Packet Processor\\Item Usuage 0x3F1\\Deposit Warehouse Money 0x3F1, 0x0A.cs",
+              "ToolTip": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Packet Processor\\Item Usuage 0x3F1\\Deposit Warehouse Money 0x3F1, 0x0A.cs",
+              "RelativeToolTip": "Packet Processor\\Item Usuage 0x3F1\\Deposit Warehouse Money 0x3F1, 0x0A.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T18:40:37.018Z",
+              "WhenOpened": "2025-05-02T01:56:05.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "Withdraw Warehouse Money 0x3F1, 0x0B.cs",
+              "DocumentMoniker": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Packet Processor\\Item Usuage 0x3F1\\Withdraw Warehouse Money 0x3F1, 0x0B.cs",
+              "RelativeDocumentMoniker": "Packet Processor\\Item Usuage 0x3F1\\Withdraw Warehouse Money 0x3F1, 0x0B.cs",
+              "ToolTip": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Packet Processor\\Item Usuage 0x3F1\\Withdraw Warehouse Money 0x3F1, 0x0B.cs",
+              "RelativeToolTip": "Packet Processor\\Item Usuage 0x3F1\\Withdraw Warehouse Money 0x3F1, 0x0B.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:57:36.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Game Processor.cs",
               "DocumentMoniker": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Game Processor.cs",
               "RelativeDocumentMoniker": "Game Processor.cs",
@@ -115,26 +150,38 @@
               "RelativeToolTip": "Game Processor.cs",
               "ViewState": "AgIAAE4AAAAAAAAAAAAYwHsAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T18:39:37.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T18:39:37.686Z"
             }
           ]
         },
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 185,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Deposit Warehouse Money 0x3F1, 0x0A.cs",
-              "DocumentMoniker": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Packet Processor\\Item Usuage 0x3F1\\Deposit Warehouse Money 0x3F1, 0x0A.cs",
-              "RelativeDocumentMoniker": "Packet Processor\\Item Usuage 0x3F1\\Deposit Warehouse Money 0x3F1, 0x0A.cs",
-              "ToolTip": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Packet Processor\\Item Usuage 0x3F1\\Deposit Warehouse Money 0x3F1, 0x0A.cs",
-              "RelativeToolTip": "Packet Processor\\Item Usuage 0x3F1\\Deposit Warehouse Money 0x3F1, 0x0A.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Warehouse.cs",
+              "DocumentMoniker": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Database\\Warehouse.cs",
+              "RelativeDocumentMoniker": "Database\\Warehouse.cs",
+              "ToolTip": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Database\\Warehouse.cs",
+              "RelativeToolTip": "Database\\Warehouse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T01:49:36.369Z",
+              "WhenOpened": "2025-04-18T23:51:51.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Deposit Item 0x44E, 0x01.cs",
+              "DocumentMoniker": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Packet Processor\\Warehouse 0x44E\\Deposit Item 0x44E, 0x01.cs",
+              "RelativeDocumentMoniker": "Packet Processor\\Warehouse 0x44E\\Deposit Item 0x44E, 0x01.cs",
+              "ToolTip": "C:\\Users\\Redme\\OneDrive\\Documents\\ConquerServer\\ConquerServerV2\\CoServerV2\\ConquerServer_v2\\Packet Processor\\Warehouse 0x44E\\Deposit Item 0x44E, 0x01.cs",
+              "RelativeToolTip": "Packet Processor\\Warehouse 0x44E\\Deposit Item 0x44E, 0x01.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T17:14:00.152Z",
               "EditorCaption": ""
             }
           ]

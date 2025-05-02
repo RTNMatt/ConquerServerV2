@@ -127,12 +127,17 @@ namespace ConquerServer_v2.Database
         // Save all items back to the warehouse file
         public void UpdateItems(DatabaseWHItem* Items, int ItemCount)
         {
+            Console.WriteLine($"[Warehouse] Saving {ItemCount} items to {File}");
             BinaryFile data = new BinaryFile(File, System.IO.FileMode.Create);
             if (data.Success)
             {
                 data.Write(&ItemCount, sizeof(int)); // Write item count
                 data.Write(Items, ItemCount, sizeof(DatabaseWHItem)); // Write array of items
                 data.Close();
+            }
+            else
+            {
+                Console.WriteLine($"[Warehouse] Failed to create warehouse file: {File}");
             }
         }
     }

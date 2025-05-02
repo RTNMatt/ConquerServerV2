@@ -27,8 +27,8 @@ namespace ConquerServer_v2.Packet_Structures
         public uint NpcID;                  // ID of the NPC being interacted with (e.g., warehouse NPC)
         public WarehouseActionID Action;    // Action being requested (view, deposit, withdraw)
         public int Count;                   // Item count or used as ItemUID based on context
-        // Helper property to alias Count as ItemUID for certain operations
-        public uint ItemUID { get { return (uint)Count; } set { Count = (int)value; } }
+                                            // Helper property to alias Count as ItemUID for certain operations
+        public uint ItemUID;
         public byte ItemStart;  // Marks the start of item data in the packet
 
         public static SafePointer Create(int Count)
@@ -36,18 +36,27 @@ namespace ConquerServer_v2.Packet_Structures
             // Calculate packet size: header (16 bytes) + item data + extra 8 bytes (likely for alignment)
             int Size = 16 + (sizeof(WarehouseItem) * Count) + 8;
             SafePointer SafePtr = new SafePointer(Size);
+
             // Initialize the packet structure
             WarehousePacket* ptr = (WarehousePacket*)SafePtr.Addr;
             ptr->Size = (ushort)(Size - 8); // Size without the protocol header
             ptr->Type = 0x44E;
             ptr->Count = Count;
+
+            // Clear the item area to avoid garbage data causing client crashes
+            byte* itemStart = &ptr->ItemStart;
+            for (int i = 0; i < (sizeof(WarehouseItem) * Count); i++)
+                *(itemStart + i) = 0;
+
             // Append server-specific TQ header
             PacketBuilder.AppendTQServer(SafePtr.Addr, Size);
+
             return SafePtr;
         }
     }
+
     // Represents a single item in the warehouse
-    [StructLayout(LayoutKind.Explicit, Size=24)]
+    [StructLayout(LayoutKind.Explicit, Size = 24)]
     /// <summary>
     /// An internal structure of the 0x44E packet (Server->Client)
     /// </summary>
@@ -71,7 +80,7 @@ namespace ConquerServer_v2.Packet_Structures
         public bool Free;           // Whether the item is bound/free
         [FieldOffset(16)]
         public byte Enchant;        // Enchantment level
-        [FieldOffset(17)]           
+        [FieldOffset(17)]
         public fixed byte bUnknowns[5]; // Unknown/padding bytes
         [FieldOffset(23)]
         public byte Color;          // Item color (e.g., for quality)

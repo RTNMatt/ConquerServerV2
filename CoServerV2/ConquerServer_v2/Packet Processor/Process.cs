@@ -29,6 +29,7 @@ namespace ConquerServer_v2.Packet_Processor
                             SubID = (int)iuPtr->ID;
                             switch (iuPtr->ID)
                             {
+
                                 case ItemUsuageID.Ping: ReplyPing(Client, iuPtr); break;
                                 
                                 case ItemUsuageID.Unequip: UnequipItem(Client, iuPtr); break;
@@ -169,6 +170,7 @@ namespace ConquerServer_v2.Packet_Processor
                     case 0x44E:
                         {
                             WarehousePacket* whPtr = (WarehousePacket*)Packet;
+                            Console.WriteLine($"[WarehousePacket] Action: {whPtr->Action}, NpcID: {whPtr->NpcID}, Count: {whPtr->Count}, ItemUID: {whPtr->ItemUID}");
                             switch (whPtr->Action)
                             {
                                 case WarehouseActionID.Show: ShowWarehouseItems(Client); break;
